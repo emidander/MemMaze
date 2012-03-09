@@ -1,0 +1,12 @@
+*.swp
+local.properties
+bin
+admin
+releases
+MemMazeImageGenerator
+web
+*.git-old
+.DS_Store
+.project
+.settings
+.classpath

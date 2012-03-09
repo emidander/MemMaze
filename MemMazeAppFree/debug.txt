@@ -1,0 +1,6 @@
+
+
+/usr/local/android-sdk-mac_x86/platform-tools/adb pull /data/data/org.memmaze/files/level_results
+
+/usr/local/android-sdk-mac_x86/platform-tools/adb shell setprop log.tag.Profiling DEBUG
+

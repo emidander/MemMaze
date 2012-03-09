@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+    <TableRow>
+		<TextView
+			android:id="@+id/TextLevelName"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:padding="10dp"
+			android:textSize="16sp" android:text="Level X" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		</TextView>
+		<TextView
+			android:id="@+id/TextLevelCompletion"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:padding="10dp"
+			android:gravity="right"
+			android:textColor="#33cc33" android:textSize="16sp" android:text="12%" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		</TextView>
+    </TableRow>
+</TableLayout>

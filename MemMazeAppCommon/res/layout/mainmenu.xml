@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@drawable/mainmenubackground">
+
+  	<LinearLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="fill_parent" android:orientation="vertical" android:layout_gravity="center_horizontal" android:gravity="center" android:layout_height="fill_parent">
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0sp" android:layout_gravity="center_horizontal" android:id="@+id/TextLogo1" android:text="@string/app_logo_text_1" android:textStyle="bold" android:textColor="#ffffff" android:shadowColor="#000000" android:shadowDx="2" android:shadowDy="2" android:shadowRadius="3" android:textSize="100sp" android:layout_marginLeft="2sp" android:layout_marginRight="2sp"></TextView>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0sp" android:layout_gravity="center_horizontal" android:id="@+id/TextLogo2" android:text="@string/app_logo_text_2" android:textSize="70sp" android:textStyle="bold" android:textColor="#ffffff" android:shadowColor="#000000" android:shadowDx="2" android:shadowDy="2" android:shadowRadius="3" android:layout_marginLeft="2sp" android:layout_marginRight="2sp"></TextView>
+		<TextView android:layout_width="wrap_content" android:layout_marginTop="0sp" android:id="@+id/TextFreeVersion" android:text="@string/app_free_version" android:textSize="12sp" android:textColor="#eeeeee" android:layout_marginLeft="2sp" android:layout_marginRight="2sp" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></TextView>
+
+  		<LinearLayout
+  			xmlns:android="http://schemas.android.com/apk/res/android"
+  			android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent" android:layout_gravity="center_horizontal" android:gravity="center">		
+			<Button android:layout_height="wrap_content" android:text="@string/start_game" android:textSize="20pt" android:id="@+id/ButtonStartGame" android:layout_width="wrap_content" android:width="200sp" android:layout_gravity="center"></Button>
+		</LinearLayout>
+
+
+	</LinearLayout>
+  		
+		
+</FrameLayout>

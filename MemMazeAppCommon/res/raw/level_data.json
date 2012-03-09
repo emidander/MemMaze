@@ -1,0 +1,2415 @@
+{
+	"levels": [
+		{
+			"level-id": "a-a-1",
+			"level-text": "Memorize the maze! When the lights go out, touch the screen and describe a path from the green arrow to the green x. Touch the screen to begin.",
+		    "rows": 5,
+		    "columns": 5,
+		    "tileset": "circles_yellow",
+		    "griddata": [
+		    	"..g..",
+		    	".....",
+		    	".....",
+		    	".....",
+		    	"..s.."
+		    ]
+		},
+		{
+			"level-id": "a-a-2",
+			"level-text": "This maze has obstacles. Remember where they are and avoid them!",
+		    "rows": 5,
+		    "columns": 5,
+		    "tileset": "circles_yellow",
+		    "griddata": [
+		    	"..g..",
+		    	".....",
+		    	".XXX.",
+		    	".....",
+		    	"..s.."
+		    ]
+		},
+		{
+			"level-id": "a-a-3",
+			"level-text": "This maze has more obstacles. Be careful and take your time. There is no time limit.",
+		    "rows": 5,
+		    "columns": 5,
+		    "tileset": "circles_yellow",
+		    "griddata": [
+		    	"..g..",
+		    	".XXX.",
+		    	".XXX.",
+		    	".XXX.",
+		    	"..s.."
+		    ]
+		},
+		{
+			"level-id": "a-a-4",
+			"level-text": "This time there is only one way to go.",
+		    "rows": 5,
+		    "columns": 5,
+		    "tileset": "circles_yellow",
+		    "griddata": [
+		    	"..gX.",
+		    	".XXX.",
+		    	".XXX.",
+		    	".XXX.",
+		    	"..<.."
+		    ]
+		},
+		{
+			"level-id": "a-a-5",
+			"level-text": "This is easy, right?",
+		    "rows": 5,
+		    "columns": 5,
+		    "tileset": "circles_yellow",
+		    "griddata": [
+		    	"..g..",
+		    	".XXX.",
+		    	"..X..",
+		    	".X.X.",
+		    	"..s.."
+		    ]
+		},
+		{
+			"level-id": "a-b-1",
+			"level-text": "A maze can start anywhere.",
+		    "rows": 5,
+		    "columns": 5,
+		    "tileset": "circles_green",
+		    "griddata": [
+		    	"XXgXX",
+		    	"XX.XX",
+		    	".X...",
+		    	"..XX.",
+		    	"....s"
+		    ]
+		},
+		{
+			"level-id": "a-b-2",
+			"level-text": "A maze can end anywhere.",
+		    "rows": 5,
+		    "columns": 5,
+		    "tileset": "circles_green",
+		    "griddata": [
+		    	".....",
+		    	"..X..",
+		    	".XXX.",
+		    	".XXX.",
+		    	"gXXXs"
+		    ]
+		},
+		{
+			"level-id": "a-b-3",
+			"level-text": "Sometimes you start at the top...",
+		    "rows": 5,
+		    "columns": 5,
+		    "tileset": "circles_green",
+		    "griddata": [
+		    	"vXXXg",
+		    	".XXX.",
+		    	".XXX.", 
+		    	".XXX.",
+		    	"....."
+		    ]
+		},
+		{
+			"level-id": "a-b-4",
+			"level-text": "Sometimes you go from left to right...",
+		    "rows": 5,
+		    "columns": 5,
+		    "tileset": "circles_green",
+		    "griddata": [
+		    	"XX...",
+		    	"XX.X.",
+		    	">..X.",
+		    	"XXXX.",
+		    	"XXXXg"
+		    ]
+		},
+		{
+			"level-id": "a-b-5",
+			"level-text": "Sometimes you go in circles.",
+		    "rows": 5,
+		    "columns": 5,
+		    "tileset": "circles_green",
+		    "griddata": [
+		    	"....<",
+		    	".XXXX",
+		    	".Xg..",
+		    	".XXX.",
+		    	"....."
+		    ]
+		},	
+		{
+			"level-id": "a-c-1",
+			"level-text": "Good. So, this maze is a little bigger.",
+		    "rows": 6,
+		    "columns": 6,
+		    "tileset": "circles_blue",
+		    "griddata": [
+		    	"XXg...",
+		    	"XXXXX.",
+		    	"XX....",
+		    	"XX.XXX",
+		    	"XX.XXX",
+		    	"XXsXXX"
+		    ]
+		},
+		{
+			"level-id": "a-c-2",
+			"level-text": "And this maze is perhaps a little harder to memorize.",
+		    "rows": 6,
+		    "columns": 6,
+		    "tileset": "circles_blue",
+		    "griddata": [
+		    	"......",
+		    	".XXXXg",
+		    	".XXXXX",
+		    	"......",
+		    	"XXXXX.",
+		    	"XX>..."
+		    ]
+		},
+		{
+			"level-id": "a-c-3",
+			"level-text": "You can go through this the same way as you did the last, but if you want to score 100% you must touch all empty tiles!",
+		    "rows": 6,
+		    "columns": 6,
+		    "tileset": "circles_blue",
+		    "griddata": [
+		    	"......",
+		    	".X.X.g",
+		    	"..X.XX",
+		    	"......",
+		    	".XXXX.",
+		    	".X>..."
+		    ]
+		},
+		{
+			"level-id": "a-c-4",
+			"level-text": "Scoring 100% isn't necessary at all.",
+		    "rows": 6,
+		    "columns": 6,
+		    "tileset": "circles_blue",
+		    "griddata": [
+		    	"......",
+		    	"XXX.Xg",
+		    	".....X",
+		    	".....X",
+		    	"XXX.XX",
+		    	">....."
+		    ]
+		},
+		{
+			"level-id": "a-c-5",
+			"level-text": "Relax, memorize, go in your own pace.",
+		    "rows": 6,
+		    "columns": 6,
+		    "tileset": "circles_blue",
+		    "griddata": [
+		    	".....g",
+		    	"..XXXX",
+		    	"X..XXX",
+		    	"XX..XX",
+		    	"XXX..X",
+		    	"XXXX.<"
+		    ]
+		},
+		{
+			"level-id": "a-d-1",
+			"level-text": "Focus on following patterns.",
+		    "rows": 7,
+		    "columns": 7,
+		    "tileset": "circles_red",
+		    "griddata": [
+		    	"......g",
+		    	"X..XXXX",
+		    	"XX..XXX",
+		    	"XXX..XX",
+		    	"XXXX..X",
+		    	"XXXXX..",
+		    	"XXXXXX^"
+		    ]
+		},
+		{
+			"level-id": "a-d-2",
+			"level-text": "There is often some kind of repetition you can memorize.",
+		    "rows": 7,
+		    "columns": 7,
+		    "tileset": "circles_red",
+		    "griddata": [
+		    	"g..XXXX",
+		    	"XX.XXXX",
+		    	"XX...XX",
+		    	"XXXX.XX",
+		    	"XXXX...",
+		    	"XXXXXX.",
+		    	"XXXXXX^"
+		    ]
+		},
+		{
+			"level-id": "a-d-3",
+			"level-text": "Remember that there is no time limit. Relax.",
+		    "rows": 7,
+		    "columns": 7,
+		    "tileset": "circles_red",
+		    "griddata": [
+		    	"...X...",
+		    	".X.X.X.",
+		    	".X.X.X.",
+		    	".X.X.X.",
+		    	".X.X.X.",
+		    	".X.X.X.",
+		    	"gX...X^"
+		    ]
+		},
+		{
+			"level-id": "a-d-4",
+			"level-text": "Take the easiest way first.",
+		    "rows": 7,
+		    "columns": 7,
+		    "tileset": "circles_red",
+		    "griddata": [
+		    	"...X...",
+		    	".X...X.",
+		    	"...X...",
+		    	".X...X.",
+		    	"...X...",
+		    	".X.X.X.",
+		    	"gX...X^"
+		    ]
+		},
+		{
+			"level-id": "a-d-5",
+			"level-text": "Use any shortcuts you can find!",
+		    "rows": 7,
+		    "columns": 7,
+		    "tileset": "circles_red",
+		    "griddata": [
+		    	"...X...",
+		    	".X.X.X.",
+		    	".X.X.X.",
+		    	".X...X.",
+		    	".XXXXX.",
+		    	".......",
+		    	"gXXXXX^"
+		    ]
+		},
+		{
+			"level-id": "a-e-1",
+			"level-text": "Keep going.",
+		    "rows": 7,
+		    "columns": 7,
+		    "tileset": "circles_black",
+		    "griddata": [
+		    	".......",
+		    	".XXXXX.",
+		    	".X...X.",
+		    	".X.X:X.",
+		    	".XgX.X.",
+		    	".XXX.X.",
+		    	".....X^"
+		    ]
+		},
+		{
+			"level-id": "a-e-2",
+			"level-text": "Do it again, but now clockwise.",
+		    "rows": 7,
+		    "columns": 7,
+		    "tileset": "circles_black",
+		    "griddata": [
+		    	".......",
+		    	".XXXXX.",
+		    	".X..gX.",
+		    	".X.XXX.",
+		    	".X.....",
+		    	".XXXXXX",
+		    	"......<"
+		    ]
+		},
+		{
+			"level-id": "a-e-3",
+			"level-text": "This is still easy, right?",
+		    "rows": 7,
+		    "columns": 7,
+		    "tileset": "circles_black",
+		    "griddata": [
+		    	"...g...",
+		    	".......",
+		    	"....XXX",
+		    	"XXX....",
+		    	".......",
+		    	".XXXXXX",
+		    	"......<"
+		    ]
+		},
+		{
+			"level-id": "a-e-4",
+			"level-text": "It will get more difficult, but not yet.",
+		    "rows": 7,
+		    "columns": 7,
+		    "tileset": "circles_black",
+		    "griddata": [
+		    	"g......",
+		    	"XXX....",
+		    	"....XXX",
+		    	"XXX....",
+		    	".......",
+		    	".XXXXXX",
+		    	"......<"
+		    ]
+		},
+		{
+			"level-id": "a-e-5",
+			"level-text": "This isn't too hard.",
+		    "rows": 7,
+		    "columns": 7,
+		    "tileset": "circles_black",
+		    "griddata": [
+		    	"g......",
+		    	"XXXX...",
+		    	".....XX",
+		    	"XXX.XXX",
+		    	".......",
+		    	".XXXXXX",
+		    	"......<"
+		    ]
+		},
+		{
+			"level-id": "b-a-1",
+			"level-text": "Memorize this a little extra...",
+		    "rows": 7,
+		    "columns": 7,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_yellow",
+		    "griddata": [
+		    	".......",
+		    	"X.XX.XX",
+		    	"..X..XX",
+		    	".XXX..<",
+		    	"....XXX",
+		    	".XX.XXX",
+		    	"...gXXX"
+		    ]
+		},
+		{
+			"level-id": "b-a-2",
+			"level-text": "Now do the same maze from right to left!",
+		    "rows": 7,
+		    "columns": 7,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_yellow",
+		    "griddata": [
+		    	".......",
+		    	"XX.XX.X",
+		    	"XX..X..",
+		    	">..XXX.",
+		    	"XXX....",
+		    	"XXX.XX.",
+		    	"XXXg..."
+		    ]
+		},
+		{
+			"level-id": "b-a-3",
+			"level-text": "It's a good place to hide.",
+		    "rows": 7,
+		    "columns": 7,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_yellow",
+		    "griddata": [
+		    	".......",
+		    	"XX.XXX.",
+		    	".....X.",
+		    	".....X.",
+		    	".....X.",
+		    	".XXX.X.",
+		    	"..g..X^"
+		    ]
+		},
+		{
+			"level-id": "b-a-4",
+			"level-text": "Step are easy if you don't hurry.",
+		    "rows": 7,
+		    "columns": 7,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_yellow",
+		    "griddata": [
+		    	"...X..g",
+		    	".X..X..",
+		    	"..X..X.",
+		    	"X..X...",
+		    	".X..X..",
+		    	"..X..X.",
+		    	">.....X"
+		    ]
+		},
+		{
+			"level-id": "b-a-5",
+			"level-text": "Take your time.",
+		    "rows": 7,
+		    "columns": 7,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_yellow",
+		    "griddata": [
+		    	".....XX",
+		    	"X..X..X",
+		    	"g.XXX..",
+		    	"XXXX..X",
+		    	".....XX",
+		    	".XXXXXX",
+		    	"......<"
+		    ]
+		},
+		{
+			"level-id": "b-b-1",
+			"level-text": "Now let's try a maze that's a little bigger.",
+		    "rows": 8,
+		    "columns": 8,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_green",
+		    "griddata": [
+		    	".......g",
+		    	".XXXXXXX",
+		    	".XXXXXXX",
+		    	".XXXXXXX",
+		    	".XXXX...",
+		    	".XXXX.X.",
+		    	".XXXX.X.",
+		    	"......X^"
+		    ]
+		},
+		{
+			"level-id": "b-b-2",
+			"level-text": "More things can go wrong in a larger maze...",
+		    "rows": 8,
+		    "columns": 8,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_green",
+		    "griddata": [
+		    	"........",
+		    	".XXXXXX.",
+		    	".XXXXXXg",
+		    	".XXXXXXX",
+		    	".XXXX...",
+		    	".XXXX.X.",
+		    	".XXXX.X.",
+		    	"......X^"
+		    ]
+		},
+		{
+			"level-id": "b-b-3",
+			"level-text": "But you can handle it!",
+		    "rows": 8,
+		    "columns": 8,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_green",
+		    "griddata": [
+		    	"........",
+		    	".XXXXXX.",
+		    	".Xg.....",
+		    	".XXXXXXX",
+		    	".XXXX...",
+		    	".XXXX.X.",
+		    	".XXXX.X.",
+		    	"......X^"
+		    ]
+		},
+		{
+			"level-id": "b-b-4",
+			"level-text": "A little further...",
+		    "rows": 8,
+		    "columns": 8,
+		    "memorize-time": 5000,
+		    "tileset": "triangles_green",
+		    "griddata": [
+		    	"........",
+		    	".XXXXXX.",
+		    	".X......",
+		    	".X.XXXXX",
+		    	".X.XX...",
+		    	".XgXX.X.",
+		    	".XXXX.X.",
+		    	"......X^"
+		    ]
+		},
+		{
+			"level-id": "b-b-5",
+			"level-text": "One more step.",
+		    "rows": 8,
+		    "columns": 8,
+		    "memorize-time": 5000,
+		    "tileset": "triangles_green",
+		    "griddata": [
+		    	"........",
+		    	".XXXXXX.",
+		    	".X......",
+		    	".X.XXXXX",
+		    	".X.XX...",
+		    	".X.gX.X.",
+		    	".XXXX.X.",
+		    	"......X^"
+		    ]
+		},
+		{
+			"level-id": "b-c-1",
+			"level-text": "The easy way is closed.",
+		    "rows": 8,
+		    "columns": 8,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_blue",
+		    "griddata": [
+		    	"g...XXXX",
+		    	"......XX",
+		    	"....X..X",
+		    	"....XX.X",
+		    	"X.XX....",
+		    	"X..X....",
+		    	"XX......",
+		    	"XXXX...^"
+		    ]
+		},
+		{
+			"level-id": "b-c-2",
+			"level-text": "You must visit every room.",
+		    "rows": 8,
+		    "columns": 8,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_blue",
+		    "griddata": [
+		    	"...XX...",
+		    	"........",
+		    	"...XX..g",
+		    	"X.XXXXXX",
+		    	"X.XXXXXX",
+		    	"...XX...",
+		    	"........",
+		    	"...XX..<"
+		    ]
+		},
+		{
+			"level-id": "b-c-3",
+			"level-text": "Just keep calm.",
+		    "rows": 8,
+		    "columns": 8,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_blue",
+		    "griddata": [
+		    	"XXXXXXXX",
+		    	"X......g",
+		    	"X.XXXXXX",
+		    	"X.X....X",
+		    	"X.X.XX.X",
+		    	"X.X.X..X",
+		    	"X.X.X...",
+		    	"X...X.^."
+		    ]
+		},
+		{
+			"level-id": "b-c-4",
+			"level-text": "You're doing fine.",
+		    "rows": 8,
+		    "columns": 8,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_blue",
+		    "griddata": [
+		    	"X...X.g.",
+		    	"X.X.X...",
+		    	"X.X.....",
+		    	"X.XXXXXX",
+		    	"X.XXXXXX",
+		    	"X.X.....",
+		    	"X.X.X...",
+		    	"X...X.^."
+		    ]
+		},
+		{
+			"level-id": "b-c-5",
+			"level-text": "Pay attention to where the starting arrow is.",
+		    "rows": 8,
+		    "columns": 8,
+		    "tileset": "triangles_blue",
+		    "griddata": [
+		    	"XvX.X.X.",
+		    	"X.X.X.X.",
+		    	"X.X.X.X.",
+		    	"........",
+		    	".X.X.X.X",
+		    	".X.X.X.X",
+		    	".X.X.X.X",
+		    	".X.X.XgX"
+		    ]
+		},		
+		{
+			"level-id": "b-d-1",
+			"level-text": "This maze is a little larger. Let's go in circles again!",
+		    "rows": 9,
+		    "columns": 9,
+		    "tileset": "triangles_red",
+		    "griddata": [
+		    	".........",
+		    	".XXXXXXX.",
+		    	".X.....X.",
+		    	".X.XXX.X.",
+		    	".X..gX.X.",
+		    	".XXXXX.X.",
+		    	".......X.",
+		    	"XXXXXXXX.",
+		    	">........"
+		    ]
+		},
+		{
+			"level-id": "b-d-2",
+			"level-text": "We'll do the snake thing once more, as well.",
+		    "rows": 9,
+		    "columns": 9,
+		    "tileset": "triangles_red",
+		    "griddata": [
+		    	"........g",
+		    	".XXXXXXXX",
+		    	".........",
+		    	"XXXXXXXX.",
+		    	".........",
+		    	".XXXXXXXX",
+		    	".........",
+		    	"XXXXXXXX.",
+		    	">........"
+		    ]
+		},
+		{
+			"level-id": "b-d-3",
+			"level-text": "And some stairs...",
+		    "rows": 9,
+		    "columns": 9,
+		    "tileset": "triangles_red",
+		    "griddata": [
+		    	"XXXXXXXXg",
+		    	"XXXXXXX..",
+		    	"XXXXXX..X",
+		    	"XXXXX..XX",
+		    	"XXXX..XXX",
+		    	"XXX..XXXX",
+		    	"XX..XXXXX",
+		    	"X..XXXXXX",
+		    	">.XXXXXXX"
+		    ]
+		},
+		{
+			"level-id": "b-d-4",
+			"level-text": "Now you have to think!",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_red",
+		    "griddata": [
+		    	"XXXX....g",
+		    	"XXXX.XXXX",
+		    	"XXXX.XXXX",
+		    	"XXXX.XXXX",
+		    	"XXXX.XXXX",
+		    	"XXX..XXXX",
+		    	"XX..XXXXX",
+		    	"X..XXXXXX",
+		    	">.XXXXXXX"
+		    ]
+		},
+		{
+			"level-id": "b-d-5",
+			"level-text": "Same again, just a little longer.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_red",
+		    "griddata": [
+		    	"XXXX.....",
+		    	"XXXX.XXX.",
+		    	"XXXX.XXX.",
+		    	"XXXX.XXX.",
+		    	"XXXX.XXX.",
+		    	"XXX..XXX.",
+		    	"XX..XXXX.",
+		    	"X..XXXXX.",
+		    	">.XXXXXXg"
+		    ]
+		},
+		{
+			"level-id": "b-e-1",
+			"level-text": "Up, a little to the left, right, down - easy!",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 5000,
+		    "tileset": "triangles_black",
+		    "griddata": [
+		    	"XXX...XXX",
+		    	"XX..X..XX",
+		    	"X..XXX..X",
+		    	"..XXXXX..",
+		    	"X..XXXXXg",
+		    	"XX..XXXXX",
+		    	"XXX..XXXX",
+		    	"XXXX.XXXX",
+		    	"XXXX^XXXX"
+		    ]
+		},
+		{
+			"level-id": "b-e-2",
+			"level-text": "Do it again, only more!",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 4000,
+		    "tileset": "triangles_black",
+		    "griddata": [
+		    	"XXX...XXX",
+		    	"XX..X..XX",
+		    	"X..XXX..X",
+		    	"..XXXXX..",
+		    	"X..XXXXX.",
+		    	"XX..XXXX.",
+		    	"XXX..XXX.",
+		    	"XXXX.XXX.",
+		    	"XXXX^XXXg"
+		    ]
+		},
+		{
+			"level-id": "b-e-3",
+			"level-text": "This is easier than it looks.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 5000,
+		    "tileset": "triangles_black",
+		    "griddata": [
+		    	"XXX...XXX",
+		    	"XX..X..XX",
+		    	"X..XgX..X",
+		    	"..X...X..",
+		    	"X..X...X.",
+		    	"XX..X....",
+		    	"XXX..X...",
+		    	"XXXX.XX..",
+		    	"XXXX^XXX."
+		    ]
+		},
+		{
+			"level-id": "b-e-4",
+			"level-text": "Is this confusing? Remember to look for patterns!",
+		    "rows": 9,
+		    "columns": 9,
+		    "tileset": "triangles_black",
+		    "griddata": [
+		    	"....g....",
+		    	"X.X.X.X.X",
+		    	".........",
+		    	".X.X.X.X.",
+		    	".........",
+		    	"X.X.X.X.X",
+		    	".........",
+		    	".X.X.X.X.",
+		    	"....^...."
+		    ]
+		},
+		{
+			"level-id": "b-e-5",
+			"level-text": "This shouldn't give you any problems.",
+		    "rows": 9,
+		    "columns": 9,
+		    "tileset": "triangles_black",
+		    "griddata": [
+		    	"....g....",
+		    	".X.X.X.X.",
+		    	".........",
+		    	"X.X.X.X.X",
+		    	"..XXXXX..",
+		    	"X.X.X.X.X",
+		    	".........",
+		    	".X.X.X.X.",
+		    	"....^...."
+		    ]
+		},
+		{
+			"level-id": "c-a-1",
+			"level-text": "Let's try a maze that's a little more open!",
+		    "rows": 9,
+		    "columns": 9,
+		    "tileset": "squares_yellow",
+		    "griddata": [
+		    	"....XXXXX",
+		    	"........g",
+		    	"....XXXXX",
+		    	".........",
+		    	".........",
+		    	".X.XXXXXX",
+		    	".........",
+		    	"XXXX.XXXX",
+		    	"XXXX....<"
+		    ]
+		},
+		{
+			"level-id": "c-a-2",
+			"level-text": "This one is so open it's almost not a maze.",
+		    "rows": 9,
+		    "columns": 9,
+		    "tileset": "squares_yellow",
+		    "griddata": [
+		    	".........",
+		    	"....X.g..",
+		    	".........",
+		    	"..X...X..",
+		    	".....X...",
+		    	".......X.",
+		    	".........",
+		    	".........",
+		    	"..^...X.."
+		    ]
+		},
+		{
+			"level-id": "c-a-3",
+			"level-text": "Still open, but perhaps a little confusing?",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 4000,
+		    "tileset": "squares_yellow",
+		    "griddata": [
+		    	"..X....X.",
+		    	"X...X.g..",
+		    	".X.......",
+		    	"..X.X.X..",
+		    	"...X.X..X",
+		    	"....X..X.",
+		    	">.X......",
+		    	"...X.....",
+		    	"......X.."
+		    ]
+		},
+		{
+			"level-id": "c-a-4",
+			"level-text": "Open and easy, but getting 100% requires patience and good memory.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 4000,
+		    "tileset": "squares_yellow",
+		    "griddata": [
+		    	"vX......g",
+		    	".X.......",
+		    	".X.......",
+		    	"..X......",
+		    	"...X.....",
+		    	"....X..X.",
+		    	"......X..",
+		    	".....X.X.",
+		    	"....X...."
+		    ]
+		},
+		{
+			"level-id": "c-a-5",
+			"level-text": "And now it's even harder",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 4000,
+		    "tileset": "squares_yellow",
+		    "griddata": [
+		    	"vX......g",
+		    	".X.......",
+		    	".X.......",
+		    	"..X......",
+		    	"X..X.....",
+		    	".X..X..X.",
+		    	"..X...X..",
+		    	".....X.X.",
+		    	".X..X...."
+		    ]
+		},
+		{
+			"level-id": "c-b-1",
+			"level-text": "Back to basics: let's try some new patterns.",
+		    "rows": 9,
+		    "columns": 9,
+		    "tileset": "squares_green",
+		    "griddata": [
+		    	"g..XXXXXX",
+		    	"XX...XXXX",
+		    	"XXXX...XX",
+		    	"XXXXXX...",
+		    	"XXXXXXXX.",
+		    	"XXXXXX...",
+		    	"XXXX...XX",
+		    	"XX...XXXX",
+		    	">..XXXXXX"
+		    ]
+		},
+		{
+			"level-id": "c-b-2",
+			"level-text": "Steps, steps, steps.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 4000,
+		    "tileset": "squares_green",
+		    "griddata": [
+		    	"XXXXXXXXg",
+		    	"XXXXXXX..",
+		    	"XXXXXX..X",
+		    	"XXXXX..XX",
+		    	"XXXX..XXX",
+		    	"XXXX.XXXX",
+		    	"XX...XXXX",
+		    	"XX.XXXXXX",
+		    	">..XXXXXX"
+		    ]
+		},
+		{
+			"level-id": "c-b-3",
+			"level-text": "Pay attention!",
+		    "rows": 9,
+		    "columns": 9,
+		    "tileset": "squares_green",
+		    "griddata": [
+		    	"XXXXgXXXX",
+		    	"XXXX.XXXX",
+		    	"XXXX...XX",
+		    	"XXXXXX.XX",
+		    	"XX.....XX",
+		    	"XX.XXXXXX",
+		    	"XX.......",
+		    	"XXXXXXXX.",
+		    	">........"
+		    ]
+		},
+		{
+			"level-id": "c-b-4",
+			"level-text": "Symmetric mazes are easy.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 4000,
+		    "tileset": "squares_green",
+		    "griddata": [
+		    	"........g",
+		    	".XXXXXXXX",
+		    	".......XX",
+		    	"XXXXXX.XX",
+		    	"XX.....XX",
+		    	"XX.XXXXXX",
+		    	"XX.......",
+		    	"XXXXXXXX.",
+		    	">........"
+		    ]
+		},
+		{
+			"level-id": "c-b-5",
+			"level-text": "Asymmetric mazes are hard.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 4000,
+		    "tileset": "squares_green",
+		    "griddata": [
+		    	"XXXgXXXXX",
+		    	"XXX.XXXXX",
+		    	"XXX...XXX",
+		    	"XXXXX.XXX",
+		    	"XX....XXX",
+		    	"XX.XXXXXX",
+		    	"XX.......",
+		    	"XXXXXXXX.",
+		    	">........"
+		    ]
+		},
+		{
+			"level-id": "c-c-1",
+			"level-text": "Either way is fine.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 4000,
+		    "tileset": "squares_blue",
+		    "griddata": [
+		    	"........g",
+		    	".XX.XXXXX",
+		    	"..X...XXX",
+		    	"X..XX..XX",
+		    	"XX..XX..X",
+		    	"X..XXXX.X",
+		    	"X.XXXXX.X",
+		    	".........",
+		    	"....^...."
+		    ]
+		},
+		{
+			"level-id": "c-c-2",
+			"level-text": "Same here: choose a road and take it.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 4000,
+		    "tileset": "squares_blue",
+		    "griddata": [
+		    	"........g",
+		    	"XXXXXX.XX",
+		    	".........",
+		    	".XXXXXXX.",
+		    	"..XXXXX..",
+		    	"X.XXXXX.X",
+		    	"X.XXXXX.X",
+		    	".........",
+		    	"....^...."
+		    ]
+		},
+		{
+			"level-id": "c-c-3",
+			"level-text": "As usual, there is a pattern.",
+		    "rows": 9,
+		    "columns": 9,
+		    "tileset": "squares_blue",
+		    "griddata": [
+		    	"........g",
+		    	"XXXX.XXXX",
+		    	".........",
+		    	"XXXXX.XXX",
+		    	".........",
+		    	"XXXXXX.XX",
+		    	".........",
+		    	"XXXXXXX.X",
+		    	">........"
+		    ]
+		},
+		{
+			"level-id": "c-c-4",
+			"level-text": "Patterns, patterns, always patterns.",
+		    "rows": 9,
+		    "columns": 9,
+		    "tileset": "squares_blue",
+		    "griddata": [
+		    	"........g",
+		    	"X.XXXXXXX",
+		    	".........",
+		    	"XXX.XXXXX",
+		    	".........",
+		    	"XXXXX.XXX",
+		    	".........",
+		    	"XXXXXXX.X",
+		    	">........"
+		    ]
+		},
+		{
+			"level-id": "c-c-5",
+			"level-text": "There is clearly a pattern here.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 5000,
+		    "tileset": "squares_blue",
+		    "griddata": [
+		    	"XX.....XX",
+		    	"X..XXX..X",
+		    	"..X...X..",
+		    	".X..X..X.",
+		    	".X..gX.X.",
+		    	"..XXX..X.",
+		    	"X.....X..",
+		    	"XXXXXX..X",
+		    	">......XX"
+		    ]
+		},
+		{
+			"level-id": "c-d-1",
+			"level-text": "First it's a circle, then it's a square?",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 5000,
+		    "tileset": "squares_red",
+		    "griddata": [
+		    	"XX.....XX",
+		    	"X..XXX..X",
+		    	"..X...X..",
+		    	".XX.X.XX.",
+		    	".XXgX.XX.",
+		    	".XXXX.XX.",
+		    	"......X..",
+		    	"XXXXXX..X",
+		    	">......XX"
+		    ]
+		},
+		{
+			"level-id": "c-d-2",
+			"level-text": "So close, and yet...",
+		    "rows": 9,
+		    "columns": 9,
+		    "tileset": "squares_red",
+		    "griddata": [
+		    	".........",
+		    	".XXXXXXX.",
+		    	"......XX.",
+		    	"XXXXX.XX.",
+		    	"XXXXX.XX.",
+		    	"XXXXX.XX.",
+		    	"......XX.",
+		    	"gXXXXXXX.",
+		    	"X>......."
+		    ]
+		},
+		{
+			"level-id": "c-d-3",
+			"level-text": "Here you are: as many options as you could possible want.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 5000,
+		    "tileset": "squares_red",
+		    "griddata": [
+		    	"XXXXvXXXX",
+		    	"XXX...XXX",
+		    	"X...X..XX",
+		    	"..X.X...X",
+		    	".XX.X.X.X",
+		    	"...XX.X.X",
+		    	"XX.....Xg",
+		    	".XX.XXXX.",
+		    	"........."
+		    ]
+		},
+		{
+			"level-id": "c-d-4",
+			"level-text": "Unfortunately, a level isn't easy just because it gives you more than one option.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 4000,
+		    "tileset": "squares_red",
+		    "griddata": [
+		    	"vXXXXXXXg",
+		    	"...XXX...",
+		    	".X.XXX.X.",
+		    	".X.XXX.X.",
+		    	"...XXX...",
+		    	"X.XXXXX.X",
+		    	"..XXXX..X",
+		    	".XXXXX.XX",
+		    	"........."
+		    ]
+		},
+  		{
+			"level-id": "c-d-5",
+			"level-text": "It sort of - curves?",
+		    "rows": 9,
+		    "columns": 9,
+		    "tileset": "squares_red",
+		    "griddata": [
+		    	"vXXXX....",
+		    	".XXXX....",
+		    	".XXXX....",
+		    	"..XXXX...",
+		    	"X.XXXX...",
+		    	"X..XXXX..",
+		    	"XX..XXX..",
+		    	"XXX.....X",
+		    	"XXXXX...g"
+		    ]
+		},
+		{
+			"level-id": "c-e-1",
+			"level-text": "You have seen something similar before: relax, take your time, follow the pattern.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 5000,
+		    "tileset": "squares_black",
+		    "griddata": [
+		    	"X.....XXg",
+		    	".X..X..X.",
+		    	"..X..X...",
+		    	"...X..X..",
+		    	".X..X..X.",
+		    	"..X..X..X",
+		    	"X..X..X..",
+		    	"XX..X..X.",
+		    	">....X..."
+		    ]
+		},
+		{
+			"level-id": "c-e-2",
+			"level-text": "It's in there somewhere.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 5000,
+		    "tileset": "squares_black",
+		    "griddata": [
+		    	"XX.XXX.XX",
+		    	"X...X...X",
+		    	"..X...X..",
+		    	".XXX.XXX.",
+		    	".XXXXXXX.",
+		    	".XXX.XXX.",
+		    	".XX...X..",
+		    	".Xg.X...X",
+		    	"^XXXXX.XX"
+		    ]
+		},
+		{
+			"level-id": "c-e-3",
+			"level-text": "A classic maze with an inconveniently placed entrance.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 4000,
+		    "tileset": "squares_black",
+		    "griddata": [
+		    	".........",
+		    	".XXXXXXX.",
+		    	".X.......",
+		    	".X.XXXXX.",
+		    	".X.....X.",
+		    	".XXXXX.X.",
+		    	".X.....X.",
+		    	".X.XXXXX.",
+		    	"^X....gX."
+		    ]
+		},
+		{
+			"level-id": "c-e-4",
+			"level-text": "This is almost the same as last time, but be careful.",
+		    "rows": 9,
+		    "columns": 9,
+		    "memorize-time": 4000,
+		    "tileset": "squares_black",
+		    "griddata": [
+		    	"........X",
+		    	".XXXXXX..",
+		    	".X.XXXXX.",
+		    	".X.......",
+		    	".X.....X.",
+		    	".XXXXX.X.",
+		    	".X.....X.",
+		    	".X.XXXXX.",
+		    	"^X....gX."
+		    ]
+		},
+		{
+			"level-id": "c-e-5",
+			"level-text": "Yes, it is as easy as it looks.",
+		    "rows": 9,
+		    "columns": 9,
+		    "tileset": "squares_black",
+		    "griddata": [
+		    	".........",
+		    	".X.X.X.X.",
+		    	".X.X.X.X.",
+		    	".X.......",
+		    	".XX.....X",
+		    	".XXXX.XXX",
+		    	".X.......",
+		    	".X.XXXXX.",
+		    	"^X......g"
+		    ]
+		},
+	  	{
+			"level-id": "d-a-1",
+			"level-text": "It's time to scale up! Let's try out this new maze size with a familiar pattern.",
+		    "rows": 10,
+		    "columns": 10,
+		    "tileset": "stars_yellow",
+				"premium-only": true,
+		    "griddata": [
+		    	"XXXXXXXX.g",
+		    	"XXXXXXX..X",
+		    	"XXXXXX..XX",
+		    	"XXXXX..XXX",
+		    	"XXXX..XXXX",
+		    	"XXX..XXXXX",
+		    	"XX..XXXXXX",
+		    	"X..XXXXXXX",
+		    	"..XXXXXXXX",
+		    	"^XXXXXXXXX"
+		    ]
+		},
+		{
+			"level-id": "d-a-2",
+			"level-text": "This should also feel familiar, but look closely before you start.",
+		    "rows": 10,
+		    "columns": 10,
+		    "tileset": "stars_yellow",
+				"premium-only": true,
+		    "griddata": [
+		    	"XXXXXX...g",
+		    	"XXXXXX.XXX",
+		    	"XXXX...XXX",
+		    	"XXXX.XXXXX",
+		    	"XXXX.XXXXX",
+		    	"XX...XXXXX",
+		    	"XX.XXXXXXX",
+		    	"...XXXXXXX",
+		    	".XXXXXXXXX",
+		    	"^XXXXXXXXX"
+		    ]
+		},
+		{
+			"level-id": "d-a-3",
+			"level-text": "This is still easy, unless you want to score 100%...",
+		    "rows": 10,
+		    "columns": 10,
+		    "tileset": "stars_yellow",
+				"premium-only": true,
+		    "griddata": [
+		    	"..XXXXXX.g",
+		    	"X..XXXX..X",
+		    	"XX..XX..XX",
+		    	"XXX....XXX",
+		    	"XXXX..XXXX",
+		    	"XXX....XXX",
+		    	"XX..XX..XX",
+		    	"X..XXXX..X",
+		    	"..XXXXXX..",
+		    	"^XXXXXXXX."
+		    ]
+		},
+		{
+			"level-id": "d-a-4",
+			"level-text": "But why go for a perfect score?",
+		    "rows": 10,
+		    "columns": 10,
+		    "tileset": "stars_yellow",
+				"premium-only": true,
+		    "griddata": [
+		    	"g.XXXXXX..",
+		    	"X..XXXX..X",
+		    	"XX..XX..XX",
+		    	"XXX....XXX",
+		    	"..........",
+		    	"XXX....XXX",
+		    	"XX..XX..XX",
+		    	"X..XXXX..X",
+		    	"..XXXXXX..",
+		    	"^XXXXXXXX."
+		    ]
+		},
+		{
+			"level-id": "d-a-5",
+			"level-text": "Here, there really are a lot of places you can go to. Better not even try to visit them all.",
+		    "rows": 10,
+		    "columns": 10,
+		    "tileset": "stars_yellow",
+				"premium-only": true,
+		    "griddata": [
+		    	".......X.<",
+		    	"X..X..X..X",
+		    	".X..XX..X.",
+		    	"..X....X..",
+		    	"..........",
+		    	"..X....X..",
+		    	".X..XX..X.",
+		    	"X..X..X..X",
+		    	"..X....X..",
+		    	"........Xg"
+		    ]
+		},
+		{
+			"level-id": "d-b-1",
+			"level-text": "This is the largest spiral yet.",
+		    "rows": 10,
+		    "columns": 10,
+		    "tileset": "stars_green",
+				"premium-only": true,
+		    "griddata": [
+		    	".........<",
+		    	".XXXXXXXXX",
+		    	".X........",
+		    	".X.XXXXXX.",
+		    	".X.X....X.",
+		    	".X.X.gX.X.",
+		    	".X.XXXX.X.",
+		    	".X......X.",
+		    	".XXXXXXXX.",
+		    	".........."
+		    ]
+		},
+		{
+			"level-id": "d-b-2",
+			"level-text": "Can you change direction halfway through?",
+		    "rows": 10,
+		    "columns": 10,
+		    "memorize-time": 4000,
+		    "tileset": "stars_green",
+				"premium-only": true,
+		    "griddata": [
+		    	".........<",
+		    	".XXXXXXXXX",
+		    	".X....X...",
+		    	".X.XX.X.X.",
+		    	".X.Xg.X.X.",
+		    	".X.X..X.X.",
+		    	".X.XXXX.X.",
+		    	".X......X.",
+		    	".XXXXXXXX.",
+		    	".........."
+		    ]
+		},
+		{
+			"level-id": "d-b-3",
+			"level-text": "Be careful at the corners!",
+		    "rows": 10,
+		    "columns": 10,
+		    "memorize-time": 4000,
+		    "tileset": "stars_green",
+				"premium-only": true,
+		    "griddata": [
+		    	"X........<",
+		    	"..XXXXXXXX",
+		    	".XX......X",
+		    	".X..XXXX..",
+		    	".X.X....X.",
+		    	".X.Xg.X.X.",
+		    	".X..XX..X.",
+		    	".XX....XX.",
+		    	"..XXXXXX..",
+		    	"X........X"
+		    ]
+		},
+		{
+			"level-id": "d-b-4",
+			"level-text": "Now you must be even more careful.",
+		    "rows": 10,
+		    "columns": 10,
+		    "memorize-time": 4000,
+		    "tileset": "stars_green",
+				"premium-only": true,
+		    "griddata": [
+		    	"XX.......<",
+		    	"X..XXXXX..",
+		    	"..X.....X.",
+		    	".X..XXX..X",
+		    	".X.X...X..",
+		    	".X.Xg...X.",
+		    	".X..XX..X.",
+		    	"..X....X..",
+		    	"X..XXXX..X",
+		    	"XX......XX"
+		    ]
+		},
+		{
+			"level-id": "d-b-5",
+			"level-text": "Two circles, two holes to find.",
+		    "rows": 10,
+		    "columns": 10,
+		    "tileset": "stars_green",
+				"premium-only": true,
+		    "griddata": [
+		    	"XX.......<",
+		    	"X..XXXXX..",
+		    	"..X.....X.",
+		    	".X..X.X..X",
+		    	".X.X...X.X",
+		    	".X.Xg..X.X",
+		    	".X..XXX..X",
+		    	"..X.....X.",
+		    	"X..XX.XX..",
+		    	"XX.......X"
+		    ]
+		},
+		{
+			"level-id": "d-c-1",
+			"level-text": "A classic maze.",
+		    "rows": 10,
+		    "columns": 10,
+		    "memorize-time": 5000,
+		    "tileset": "stars_blue",
+				"premium-only": true,
+		    "griddata": [
+		    	"XXXvXXXXXX",
+		    	"X.........",
+		    	"X.XXXXXX.X",
+		    	"X....X....",
+		    	"..XX...X.X",
+		    	"X....X.XXX",
+		    	"X.XXXX...X",
+		    	"......XX..",
+		    	"XX.XX.XX.X",
+		    	"...X.....g"
+		    ]
+		},
+		{
+			"level-id": "d-c-2",
+			"level-text": "It's a maze: nothing more, nothing less.",
+		    "rows": 10,
+		    "columns": 10,
+		    "memorize-time": 4000,
+		    "tileset": "stars_blue",
+				"premium-only": true,
+		    "griddata": [
+		    	"......X...",
+		    	".XXX.XXXX.",
+		    	"...X....X.",
+		    	".X.XX.X...",
+		    	".X.XX.XXX.",
+		    	".X.Xg.X.X.",
+		    	".XXXXXX.X.",
+		    	"........X.",
+		    	"XX.X..XXX.",
+		    	">..X......"
+		    ]
+		},
+		{
+			"level-id": "d-c-3",
+			"level-text": "A bowl within a bowl.",
+		    "rows": 10,
+		    "columns": 10,
+		    "tileset": "stars_blue",
+				"premium-only": true,
+		    "griddata": [
+		    	"vXXXXXXXXX",
+		    	".X.......X",
+		    	".X.X.X.X.X",
+		    	".X.X.X.X.X",
+		    	".X.X...X.X",
+		    	".X.X.g.X.X",
+		    	".X..XXX..X",
+		    	"..X.....X.",
+		    	"...XX.XX..",
+		    	".........."
+		    ]
+		},
+		{
+			"level-id": "d-c-4",
+			"level-text": "A couple of boxes.",
+		    "rows": 10,
+		    "columns": 10,
+		    "tileset": "stars_blue",
+				"premium-only": true,
+		    "griddata": [
+		    	"...XXXXX.v",
+		    	"...X..gX..",
+		    	"...X...X..",
+		    	".XXXXX.X..",
+		    	".X.....X..",
+		    	".X...XXX..",
+		    	".....X....",
+		    	".XXXXX....",
+		    	"..........",
+		    	".........."
+		    ]
+		},
+		{
+			"level-id": "d-c-5",
+			"level-text": "It's just like a coloring book - stay within the lines!",
+		    "rows": 10,
+		    "columns": 10,
+		    "memorize-time": 5000,
+		    "tileset": "stars_blue",
+				"premium-only": true,
+		    "griddata": [
+		    	"........Xv",
+		    	"X.X.....X.",
+		    	"X..X...X..",
+		    	".X.X...X.X",
+		    	".X..X.X..X",
+		    	"..X.XgX.X.",
+		    	"..X..X..X.",
+		    	"...X.X.X..",
+		    	"...X...X..",
+		    	".........."
+		    ]
+		},
+		{
+			"level-id": "d-d-1",
+			"level-text": "Down-up, down-up, down...",
+		    "rows": 10,
+		    "columns": 10,
+		    "memorize-time": 4000,
+		    "tileset": "stars_red",
+				"premium-only": true,
+		    "griddata": [
+		    	"X...X...Xv",
+		    	"X.X.X.X.X.",
+		    	"X.X.X.X.X.",
+		    	"X.X.X.X.X.",
+		    	"X.X.X.X.X.",
+		    	"X.X.X.X.X.",
+		    	"X.X...X...",
+		    	"X.X...XXXX",
+		    	"X.XXXXX...",
+		    	"X........g"
+		    ]
+		},		
+		{
+			"level-id": "d-d-2",
+			"level-text": "Can you go both up-down and left-right in the same maze?",
+		    "rows": 10,
+		    "columns": 10,
+		    "tileset": "stars_red",
+				"premium-only": true,
+		    "griddata": [
+		    	"X...X...Xv",
+		    	"X.X.X.X.X.",
+		    	"X.X.X.X.X.",
+		    	"X.X...X...",
+		    	"X.XXXXXXXX",
+		    	"X.........",
+		    	"XXXXXXXXX.",
+		    	"..........",
+		    	".XXXXXXXXX",
+		    	".........g"
+		    ]
+		},		
+		{
+			"level-id": "d-d-3",
+			"level-text": "If you have managed every maze before this one, you should have no problems here.",
+		    "rows": 10,
+		    "columns": 10,
+		    "memorize-time": 4000,
+		    "tileset": "stars_red",
+				"premium-only": true,
+		    "griddata": [
+		    	"...XXXXXXX",
+		    	".X.......g",
+		    	".X.XXXXXXX",
+		    	".X.X......",
+		    	".X.X.XXXX.",
+		    	".X.X.X....",
+		    	".XXX.X.XXX",
+		    	".....X....",
+		    	"XXXXXXXXX.",
+		    	">........."
+		    ]
+		},		
+		{
+			"level-id": "d-d-4",
+			"level-text": "The quickest route requires you to make exactly ten turns.",
+		    "rows": 10,
+		    "columns": 10,
+		    "memorize-time": 5000,
+		    "tileset": "stars_red",
+				"premium-only": true,
+		    "griddata": [
+		    	"X.X.X..X.X",
+		    	"X...X..X.X",
+		    	".X..X.....",
+		    	".X....X.X.",
+		    	".X..X.X.X.",
+		    	"....X.X.X.",
+		    	".X.X.X....",
+		    	".X.X.X.X.X",
+		    	".X.X...X.X",
+		    	".gX>.....X"
+		    ]
+		},		
+		{
+			"level-id": "d-d-5",
+			"level-text": "Whatever you do, don't think about claustrophobia.",
+		    "rows": 10,
+		    "columns": 10,
+		    "memorize-time": 6000,
+		    "tileset": "stars_red",
+				"premium-only": true,
+		    "griddata": [
+		    	"gXXXXXX...",
+		    	".....XX.X.",
+		    	"XXXX.X..X.",
+		    	".....X.X..",
+		    	".XXXX..X.X",
+		    	"...XX.X..X",
+		    	"XX.X..X.Xv",
+		    	"...X.X..X.",
+		    	".XXX.X.X..",
+		    	".....X...."
+		    ]
+		},
+		{
+			"level-id": "d-e-1",
+			"level-text": "You are getting close to level 100...",
+		    "rows": 10,
+		    "columns": 10,
+		    "memorize-time": 5000,
+		    "tileset": "stars_black",
+				"premium-only": true,
+		    "griddata": [
+		    	">...XXX...",
+		    	"X.X.XX...X",
+		    	"XXX....X.X",
+		    	"XgX.X..X.X",
+		    	"..XXXXXX.X",
+		    	".XXX.X...X",
+		    	"..XX.X.X..",
+		    	"X.XX...X..",
+		    	"X..X..X...",
+		    	"XX...XXX.."
+		    ]
+		},
+		{
+			"level-id": "d-e-2",
+			"level-text": "Sieves with only one hole? That's not very practical.",
+		    "rows": 10,
+		    "columns": 10,
+		    "tileset": "stars_black",
+				"premium-only": true,
+		    "griddata": [
+		    	"X.v...X...",
+		    	".X...X...X",
+		    	".gX.X...X.",
+		    	".X.....X..",
+		    	"..X...X...",
+		    	"...X.X...X",
+		    	"..X.....X.",
+		    	"...X...X..",
+		    	"....X.X...",
+		    	".........."
+		    ]
+		},
+		{
+			"level-id": "d-e-3",
+			"level-text": "It's in the backyard.",
+		    "rows": 10,
+		    "columns": 10,
+		    "memorize-time": 4000,
+		    "tileset": "stars_black",
+				"premium-only": true,
+		    "griddata": [
+		    	">....X....",
+		    	"XXXX.X....",
+		    	".......XXX",
+		    	".XXX...X.X",
+		    	".X.X.....X",
+		    	".X.XXXXX.X",
+		    	".X.......X",
+		    	"...XX.XXXX",
+		    	".X.X.....X",
+		    	".XXX....gX"
+		    ]
+		},
+		{
+			"level-id": "d-e-4",
+			"level-text": "Is this difficult? Maybe, but probably not for you!",
+		    "rows": 10,
+		    "columns": 10,
+		    "memorize-time": 5000,
+		    "tileset": "stars_black",
+				"premium-only": true,
+		    "griddata": [
+		    	"..X...X..g",
+		    	"X...X.X..X",
+		    	"....X.....",
+		    	".XXXXXXXXX",
+		    	".X.......<",
+		    	".X.XXXXXXX",
+		    	".X..X.X.X.",
+		    	"..X...X.X.",
+		    	"...X....X.",
+		    	".X...XX..."
+		    ]
+		},
+		{
+			"level-id": "d-e-5",
+			"level-text": "This might very well be as hard as it gets.",
+		    "rows": 10,
+		    "columns": 10,
+		    "memorize-time": 5000,
+		    "tileset": "stars_black",
+				"premium-only": true,
+		    "griddata": [
+		    	">.X.X.X.X.",
+		    	"X.X.X.X.X.",
+		    	"..X.....X.",
+		    	".X.X.X.X.X",
+		    	".X.X.X.X.X",
+		    	".....X....",
+		    	"X.X.X.X.X.",
+		    	"X.X.X.X.X.",
+		    	"...X....X.",
+		    	".X.X.X.Xg."
+		    ]
+		},
+		{
+			"level-id": "e-a-1",
+			"level-text": "Just kidding earlier! This maze is a little bigger again, so things can still get harder.",
+		    "rows": 11,
+		    "columns": 11,
+		    "memorize-time": 5000,
+		    "tileset": "sticks_yellow",
+			"premium-only": true,
+		    "griddata": [
+		    	">.X.....X..",
+		    	"..X.XX.X...",
+		    	"X....X...X.",
+		    	"..XX.X...X.",
+		    	"X.....XXX..",
+		    	"XXXX......X",
+		    	".....XXXX.X",
+		    	".XXX.X.....",
+		    	"...X...XXX.",
+		    	".X..XXX....",
+		    	"..X..g..XXX"
+		    ]
+		},
+		{
+			"level-id": "e-a-2",
+			"level-text": "Is it easier when you start in the middle?",
+		    "rows": 11,
+		    "columns": 11,
+		    "memorize-time": 5000,
+		    "tileset": "sticks_yellow",
+			"premium-only": true,
+		    "griddata": [
+		    	"g..........",
+		    	"XXXXXXXXXX.",
+		    	".........X.",
+		    	".XXXXXXX.X.",
+		    	".X.....X.X.",
+		    	".X.XXX.X.X.",
+		    	".X.X>..X.X.",
+		    	".X.XXXXX.X.",
+		    	".X.......X.",
+		    	".XXXXXXXXX.",
+		    	"..........."
+		    ]
+		},
+		{
+			"level-id": "e-a-3",
+			"level-text": "Left or right? It's up to you.",
+		    "rows": 11,
+		    "columns": 11,
+		    "memorize-time": 5000,
+		    "tileset": "sticks_yellow",
+			"premium-only": true,
+		    "griddata": [
+		    	"...........",
+		    	"XX.XX.XX.XX",
+		    	"....XgX....",
+		    	".XXXXXXXXX.",
+		    	"...X...X...",
+		    	".X.X.X.X.X.",
+		    	".X.X.X.X.X.",
+		    	".X.X.X.X.X.",
+		    	"...........",
+		    	".XXXX.XXXX.",
+		    	"....X^X...."
+		    ]
+		},
+		{
+			"level-id": "e-a-4",
+			"level-text": "Remember that thing about patterns? It sort of applies here.",
+		    "rows": 11,
+		    "columns": 11,
+		    "memorize-time": 5000,
+		    "tileset": "sticks_yellow",
+			"premium-only": true,
+		    "griddata": [
+		    	"X.......XXX",
+		    	"XX..XXX..XX",
+		    	"XXX..XXX..X",
+		    	"XXXX..XXX..",
+		    	"XXXvX.XXXX.",
+		    	"XXX.X.XXX..",
+		    	"XX..XgXX..X",
+		    	"X..XXXX..XX",
+		    	"..XXXX..XXX",
+		    	".XXXX..XXXX",
+		    	"......XXXXX"
+		    ]
+		},
+		{
+			"level-id": "e-a-5",
+			"level-text": "If you have come this far, you probably don't need more advice. But what about encouragement?",
+		    "rows": 11,
+		    "columns": 11,
+		    "memorize-time": 6000,
+		    "tileset": "sticks_yellow",
+			"premium-only": true,
+		    "griddata": [
+		    	".........X.",
+		    	".X.X....X..",
+		    	"..X..X....X",
+		    	".X.X..X....",
+		    	"X...X..X.X.",
+		    	">.......X..",
+		    	"..X..X.X.X.",
+		    	".X.X..X....",
+		    	"X....X..X..",
+		    	"....X....X.",
+		    	"X..X...g..X"
+		    ]
+		},
+		{
+			"level-id": "e-b-1",
+			"level-text": "Yes, it's supposed to be difficult.",
+		    "rows": 11,
+		    "columns": 11,
+		    "memorize-time": 6000,
+		    "tileset": "sticks_green",
+			"premium-only": true,
+		    "griddata": [
+		    	"........XXX",
+		    	".XXXXXX..XX",
+		    	".XXXXvXX..X",
+		    	".XXXX.XXX..",
+		    	".XXX...XXX.",
+		    	".XX..X..XX.",
+		    	".X..XgX..X.",
+		    	"...XX.X..X.",
+		    	"..XXX.X..X.",
+		    	".XXXX.XXXX.",
+		    	"X.........."
+		    ]
+		},
+		{
+			"level-id": "e-b-2",
+			"level-text": "But difficulty doesn't matter now. You know what to do and how to do it.",
+		    "rows": 11,
+		    "columns": 11,
+		    "memorize-time": 6000,
+		    "tileset": "sticks_green",
+			"premium-only": true,
+		    "griddata": [
+		    	"X..........",
+		    	"..X..X...X.",
+		    	".X..XvX...X",
+		    	"...X...X...",
+		    	"..X.X...X..",
+		    	".X...X...X.",
+		    	".X.X..X..X.",
+		    	"...X..X..X.",
+		    	"..X...X....",
+		    	".X..X.X..X.",
+		    	"Xg.X..X.X.."
+		    ]
+		},
+		{
+			"level-id": "e-b-3",
+			"level-text": "Here is a tip, just in case: bounce whenever you hit a wall and you will be fine.",
+		    "rows": 11,
+		    "columns": 11,
+		    "memorize-time": 6000,
+		    "tileset": "sticks_green",
+			"premium-only": true,
+		    "griddata": [
+		    	"XXX...XXXXX",
+		    	"XX..X..XXXX",
+		    	"X..X.X..XXX",
+		    	"..X...X..XX",
+		    	".X..X..X..X",
+		    	"..X..X..X..",
+		    	"X..X..X..X.",
+		    	"..X..X..X..",
+		    	"^X..X..X..X",
+		    	"X..X..X..XX",
+		    	"g.XXX...XXX"
+		    ]
+		},
+		{
+			"level-id": "e-b-4",
+			"level-text": "Let's do a classical symmetric maze again. They are always appreciated.",
+		    "rows": 11,
+		    "columns": 11,
+		    "memorize-time": 5000,
+		    "tileset": "sticks_green",
+			"premium-only": true,
+		    "griddata": [
+		    	"g....X....<",
+		    	"XXXX.X.XXXX",
+		    	"X....X....X",
+		    	"X.XXXXXXX.X",
+		    	"X.XXXXXXX.X",
+		    	"X...XXX...X",
+		    	"XXX.XXX.XXX",
+		    	"XX..XXX..XX",
+		    	"X..X.X.X..X",
+		    	"X.X..X..X.X",
+		    	"..........."
+		    ]
+		},
+		{
+			"level-id": "e-b-5",
+			"level-text": "Now have a look at this: no symmetry at all. Very modern.",
+		    "rows": 11,
+		    "columns": 11,
+		    "memorize-time": 6000,
+		    "tileset": "sticks_green",
+			"premium-only": true,
+		    "griddata": [
+		    	".X.X...gXXv",
+		    	".X.X...XX..",
+		    	".X...XX...X",
+		    	".X..XX..XXX",
+		    	".X..XX.XXXX",
+		    	".X..XX.XXXX",
+		    	"...XX..XXXX",
+		    	"...XX.XXXXX",
+		    	"..XXX....XX",
+		    	".XXXXXXX..X",
+		    	"..........."
+		    ]
+		},
+		{
+			"level-id": "e-c-1",
+			"level-text": "A good thing here: getting a perfect score isn't much harder than just solving the maze.",
+		    "rows": 11,
+		    "columns": 11,
+		    "tileset": "sticks_blue",
+			"premium-only": true,
+		    "griddata": [
+		    	"...Xg......",
+		    	".X.XXXXXXX.",
+		    	".X.........",
+		    	".XXXXXXXXX.",
+		    	"..........X",
+		    	"XXXXXXXXX.X",
+		    	"X.......X.X",
+		    	"X.XXXXX.X.X",
+		    	"..X...X.X..",
+		    	".XX.X.X.XX.",
+		    	"....X^X...."
+		    ]
+		},
+		{
+			"level-id": "e-c-2",
+			"level-text": "I wouldn't worry about this maze if I were you. Just solve it.",
+		    "rows": 11,
+		    "columns": 11,
+		    "memorize-time": 5000,
+		    "tileset": "sticks_blue",
+			"premium-only": true,
+		    "griddata": [
+		    	".....X.....",
+		    	".XXX.X.XXX.",
+		    	".X.......X.",
+		    	".XXX.XXXXX.",
+		    	".....X.....",
+		    	"XX.XXXXX.XX",
+		    	".....X.....",
+		    	".X.X.X.X.X.",
+		    	".X...X...X.",
+		    	".XXXXX.XXX.",
+		    	"....<X..g.."
+		    ]
+		},
+		{
+			"level-id": "e-c-3",
+			"level-text": "There are two ways to go. Which one is best?",
+		    "rows": 11,
+		    "columns": 11,
+		    "memorize-time": 6000,
+		    "tileset": "sticks_blue",
+				"premium-only": true,
+		    "griddata": [
+		    	".....X.....",
+		    	".XXX...XXX.",
+		    	"...XXX..X..",
+		    	"XX.X.X.X..X",
+		    	".X...X..X..",
+		    	"XX.XXXX..X.",
+		    	".....X...X.",
+		    	".X.X.X.X.X.",
+		    	".XXX.....X.",
+		    	".X.XXX.X.Xg",
+		    	"....<X....X"
+		    ]
+		},
+		{
+			"level-id": "e-c-4",
+			"level-text": "A very annoying maze, this one. But it is entertaining!",
+		    "rows": 11,
+		    "columns": 11,
+		    "memorize-time": 6000,
+		    "tileset": "sticks_blue",
+				"premium-only": true,
+		    "griddata": [
+		    	".....X.....",
+		    	".XXX..X..Xg",
+		    	"...XX..X..X",
+		    	"X..XX.....X",
+		    	"..X..XXXXX.",
+		    	".X...XX...X",
+		    	"...X....X.X",
+		    	"X.XXX.XXX..",
+		    	"vX...X...X.",
+		    	".X.X.X.X.X.",
+		    	"...X...X..."
+		    ]
+		},
+		{
+			"level-id": "e-c-5",
+			"level-text": "Going in circles is boring. Luckily this maze has some interesting obstacles.",
+		    "rows": 11,
+		    "columns": 11,
+		    "memorize-time": 6000,
+		    "tileset": "sticks_blue",
+				"premium-only": true,
+		    "griddata": [
+		    	"..XX...XX..",
+		    	".....X.....",
+		    	"X..XXXXX..X",
+		    	"..X.....X.X",
+		    	".XX.XXX.X..",
+		    	"..X.XgX.XX.",
+		    	"X...X.X.X..",
+		    	"X.XX....X.X",
+		    	"X.XXXXXX..X",
+		    	"vX...X.....",
+		    	"...X...XX.."
+		    ]
+		},
+		{
+			"level-id": "e-d-1",
+			"level-text": "This maze is the largest yet. What's your finger tip/screen size ratio like?",
+		    "rows": 12,
+		    "columns": 12,
+		    "memorize-time": 6000,
+		    "tileset": "sticks_red",
+				"premium-only": true,
+		    "griddata": [
+		    	".........X.g",
+		    	".XXXXXX..X..",
+		    	".....X..X...",
+		    	".X..X..X....",
+		    	"X..X..XXXX..",
+		    	"..X.......X.",
+		    	".XXXXX...X..",
+		    	".....X..X...",
+		    	".X..X..X.X..",
+		    	"X..X..X...X.",
+		    	"..X..X..X...",
+		    	"^X.....X...."
+		    ]
+		},
+		{
+			"level-id": "e-d-2",
+			"level-text": "Concentrate, memorize, go!",
+		    "rows": 12,
+		    "columns": 12,
+		    "memorize-time": 7000,
+		    "tileset": "sticks_red",
+				"premium-only": true,
+		    "griddata": [
+		    	"X...g.....X.",
+		    	"...XXXX.X.X.",
+		    	".X...X.XX...",
+		    	".XX.X......X",
+		    	"X.....XX.X..",
+		    	"..X.X.....X.",
+		    	".XXXXX.XX.X.",
+		    	".......XX.X.",
+		    	".XXXX.XX....",
+		    	"X........X..",
+		    	"..X.XX...X.X",
+		    	"^X.....X...."
+		    ]
+		},
+		{
+			"level-id": "e-d-3",
+			"level-text": "Don't worry about getting lost. You can always start over.",
+		    "rows": 12,
+		    "columns": 12,
+		    "memorize-time": 7000,
+		    "tileset": "sticks_red",
+				"premium-only": true,
+		    "griddata": [
+		    	".g.....XXXXX",
+		    	".X.XXXXX...X",
+		    	".X.XXX.....X",
+		    	".X.XX...XX.X",
+		    	"......XXX...",
+		    	"...XXXXXX.X.",
+		    	"XXXX...<X.X.",
+		    	"XX...XXXX.X.",
+		    	"X..XXX......",
+		    	"..XXX....X.X",
+		    	"X..XXXXXXX.X",
+		    	"XX.........."
+		    ]
+		},
+		{
+			"level-id": "e-d-4",
+			"level-text": "Relax. This maze is 'easy'.",
+		    "rows": 12,
+		    "columns": 12,
+		    "memorize-time": 7000,
+		    "tileset": "sticks_red",
+				"premium-only": true,
+		    "griddata": [
+		    	"...gX......X",
+		    	".XXX..XX.X.X",
+		    	".XX..XXX...X",
+		    	".X..XXXXXX.X",
+		    	"...XXX......",
+		    	"..XXX.X...X.",
+		    	"XXXXX..XXX..",
+		    	"X......XXX..",
+		    	"X.X.X.X.....",
+		    	"X.X.X......X",
+		    	"X.X.XXXXXXXX",
+		    	"X..........<"
+		    ]
+		},
+		{
+			"level-id": "e-d-5",
+			"level-text": "Back to basics: just follow the patterns.",
+		    "rows": 12,
+		    "columns": 12,
+		    "memorize-time": 5000,
+		    "tileset": "sticks_red",
+				"premium-only": true,
+		    "griddata": [
+		    	">..........X",
+		    	"XXXXXXXXXX.X",
+		    	".X...X...X.X",
+		    	".X.X.X.X.X.X",
+		    	".X.X...X...X",
+		    	".X.XXXXXXXXX",
+		    	".X..........",
+		    	".XXXXXXXXXX.",
+		    	".....X...X..",
+		    	".XXX...X...X",
+		    	"..XXXXXXXXXX",
+		    	"X..........g"
+		    ]
+		},
+		{
+			"level-id": "e-e-1",
+			"level-text": "An even larger maze?! Don't worry: this is as large as it gets.",
+		    "rows": 13,
+		    "columns": 13,
+		    "memorize-time": 5000,
+		    "tileset": "sticks_black",
+				"premium-only": true,
+		    "griddata": [
+		    	">............",
+		    	"XXXXXXXXXXXX.",
+		    	"...X.......X.",
+		    	".X.X.XXXXX.X.",
+		    	".X.X.....X.X.",
+		    	".X.XXXXX.X.X.",
+		    	".X.X..gX.X.X.",
+		    	".X.X.XXX.X.X.",
+		    	".X.X.....X.X.",
+		    	".X.XXXXXXX.X.",
+		    	".X.........X.",
+		    	".XXXXXXXXXXX.",
+		    	"............."
+		    ]
+		},
+		{
+			"level-id": "e-e-2",
+			"level-text": "For every maze you solve, you get nearer the end...",
+		    "rows": 13,
+		    "columns": 13,
+		    "memorize-time": 5000,
+		    "tileset": "sticks_black",
+				"premium-only": true,
+		    "griddata": [
+		    	">.......X....",
+		    	"X.X.X.X.X.XX.",
+		    	"..X...X.X....",
+		    	"...X.X.X.XX.X",
+		    	".X...X...X...",
+		    	"XX.XXX.X.X.X.",
+		    	"...X...X.X.X.",
+		    	".XXX.XXX.X.X.",
+		    	"...X..X..X.X.",
+		    	"XX.X.XX.XX.X.",
+		    	".....X.....X.",
+		    	"X.XXXXX.XXXX.",
+		    	"..........Xg."
+		    ]
+		},
+		{
+			"level-id": "e-e-3",
+			"level-text": "Are you really only three mazes from The End?",
+		    "rows": 13,
+		    "columns": 13,
+		    "memorize-time": 7000,
+		    "tileset": "sticks_black",
+				"premium-only": true,
+		    "griddata": [
+		    	">....XXX.....",
+		    	"XXX...X...XXX",
+		    	"...XX...XX...",
+		    	".X..XX.XX..X.",
+		    	".XX..X.X..XX.",
+		    	".X..XX.XX..X.",
+		    	".X.X.....X.X.",
+		    	".X.X.XXX.X.X.",
+		    	".X.X.....X.X.",
+		    	".X..X.X.X..X.",
+		    	"..X.....XgX..",
+		    	"X..XXXXXXX..X",
+		    	"XX.........XX"
+		    ]
+		},
+		{
+			"level-id": "e-e-4",
+			"level-text": "All you have to do here is visit 62 carefully selected squares. In the right order.",
+		    "rows": 13,
+		    "columns": 13,
+		    "memorize-time": 7000,
+		    "tileset": "sticks_black",
+				"premium-only": true,
+		    "griddata": [
+		    	">..XXXXX.....",
+		    	"XX.....X...X.",
+		    	"...X.......X.",
+		    	"...XXXXXXXXX.",
+		    	"XXXX.........",
+		    	".......XX....",
+		    	"...XXXXXXXXXX",
+		    	"...XX........",
+		    	"X.XXX....X...",
+		    	"X...XXX.XX...",
+		    	"X........XX.X",
+		    	"X...XXXXXX...",
+		    	"XXXXXg......."
+		    ]
+		},
+		{
+			"level-id": "e-e-5",
+			"level-text": "And this is it: your final challenge! Enjoy.",
+		    "rows": 13,
+		    "columns": 13,
+		    "memorize-time": 7000,
+		    "tileset": "sticks_black",
+				"premium-only": true,
+		    "griddata": [
+		    	"vX...........",
+		    	".X..XXXXXXXX.",
+		    	"..X....X.....",
+		    	"X..XXX.X.XXXX",
+		    	"XX.....X.....",
+		    	"XXXXXXXXXXXX.",
+		    	"...X......X..",
+		    	".X.X..X..X..X",
+		    	".X...X..X..X.",
+		    	".X..X..X..X..",
+		    	"..XX.....X...",
+		    	"X..XXXXXX..X.",
+		    	"XX........XXg"
+		    ]
+		},
+		{
+			"level-id": "debug-1",
+			"level-text": "20x20",
+		    "rows": 20,
+		    "columns": 20,
+		    "tileset": "circles_yellow",
+		    "debug-only": true,
+		    "griddata": [
+		    	"g...................",
+		    	"....................",
+		    	".XX.XX.XXXXX.....XX.",
+		    	".XX.XX.XX........XX.",
+		    	".XXXXX.XXXX......XX.",
+		    	".XX.XX.XX....XX..XX.",
+		    	".XX.XX.XXXXX..XXXX..",
+		    	"....................",
+		    	"...XXXXXXXXXXX......",
+		    	"....XXX.....XXX.....",
+		    	".....XXX.....XXX....",
+		    	"......XXX.....XXX...",
+		    	".......XXXXXXXXXXX..",
+		    	"....................",
+		    	"..XXXXXXXXXXXXXXXX..",
+		    	"..XXXXXXXXXXXXXXXX..",
+		    	"..XXXXXXXXXXXXXXXX..",
+		    	"..XXXXXXXXXXXXXXXX..",
+		    	"....................",
+		    	"^..................."
+		    ]
+		},
+		{
+			"level-id": "debug-2",
+			"level-text": "Only two tiles!",
+		    "rows": 2,
+		    "columns": 1,
+		    "tileset": "circles_yellow",
+		    "debug-only": true,
+		    "griddata": [
+		    	"g",
+		    	"^"
+		    ]
+		}
+	]
+}
+

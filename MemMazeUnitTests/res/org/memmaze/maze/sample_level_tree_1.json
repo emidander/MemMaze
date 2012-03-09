@@ -1,0 +1,50 @@
+{
+	"levels": [
+		{
+			"level-id": "normal",
+			"level-text": "Test-level 1",
+		    "rows": 5,
+		    "columns": 5,
+		    "tileset": "circles_yellow",
+		    "griddata": [
+		    	"..g..",
+		    	".....",
+		    	".....",
+		    	".....",
+		    	"..s.."
+		    ]
+		},
+		{
+			"level-id": "debug-only",
+			"level-text": "Test-level 2 (only debug)",
+		    "rows": 5,
+		    "columns": 5,
+		    "tileset": "circles_yellow",
+		    "debug-only": true,
+		    "griddata": [
+		    	"..g..",
+		    	".....",
+		    	".XXX.",
+		    	".....",
+		    	"..s.."
+		    ]
+		},
+		{
+			"level-id": "premium-only",
+			"level-text": "Test-level 3 (only premium)",
+		    "rows": 5,
+		    "columns": 5,
+		    "tileset": "circles_yellow",
+		    "premium-only": true,
+		    "griddata": [
+		    	"..g..",
+		    	"...X.",
+		    	".XXX.",
+		    	".X...",
+		    	"..s.."
+		    ]
+		}
+		
+	]
+}
+

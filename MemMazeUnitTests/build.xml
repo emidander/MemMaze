@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="MemMazeUnitTests">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="/Applications/eclipse"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="MemMazeCore.location" value="../MemMazeCore"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+    <path id="JUnit 3.libraryclasspath">
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.junit_3.8.2.v3_8_2_v20100427-1100/junit.jar"/>
+    </path>
+    <path id="MemMazeCore.classpath">
+        <pathelement location="${MemMazeCore.location}/bin"/>
+        <pathelement location="${MemMazeCore.location}/lib/json-20090211.jar"/>
+    </path>
+    <path id="MemMazeUnitTests.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="lib/mockito-all-1.8.5.jar"/>
+        <path refid="JUnit 3.libraryclasspath"/>
+        <pathelement location="lib/json-20090211.jar"/>
+        <path refid="MemMazeCore.classpath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="res">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src-manual-tests">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall">
+        <ant antfile="build.xml" dir="${MemMazeCore.location}" inheritAll="false" target="clean"/>
+    </target>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects">
+        <ant antfile="build.xml" dir="${MemMazeCore.location}" inheritAll="false" target="build-project"/>
+    </target>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="MemMazeUnitTests.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="res"/>
+            <classpath refid="MemMazeUnitTests.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="src-manual-tests"/>
+            <classpath refid="MemMazeUnitTests.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target name="MemMazeUnitTests">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="org.memmaze.ValidateCurrentLevelTree" todir="${junit.output.dir}"/>
+            <test name="org.memmaze.maze.LevelResultsTest" todir="${junit.output.dir}"/>
+            <test name="org.memmaze.maze.LevelTest" todir="${junit.output.dir}"/>
+            <test name="org.memmaze.maze.LevelTreeTest" todir="${junit.output.dir}"/>
+            <test name="org.memmaze.rendering.util.TileSetUtilityTest" todir="${junit.output.dir}"/>
+            <test name="org.memmaze.rendering.util.TileSizeCalculatorTest" todir="${junit.output.dir}"/>
+            <classpath refid="MemMazeUnitTests.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MemoryMaze" default="build-free-debug">
+
+	<target name="generate-images">
+		<exec executable="ruby" dir="MemMazeImageGenerator/tileset">
+			<arg value="generate-all.rb" />
+		</exec>
+		<exec executable="ruby" dir="MemMazeImageGenerator/tileset">
+			<arg value="copy-all.rb" />
+		</exec>
+	</target>
+
+
+  <target name="build-core">
+		<ant dir="MemMazeCore" antfile="build.xml" target="build"/>
+		<ant dir="MemMazeUnitTests" antfile="build.xml" target="MemMazeUnitTests"/>
+	</target>
+
+	<target name="app-build-set-target">
+		<exec executable="ruby" dir="MemMazeAppCommon/tools">
+			<arg value="set-target-mode.rb"/>
+			<arg value="${debug}"/>
+		</exec>
+	</target>
+
+
+	<!-- Build targets for MemMazeFree -->
+	<target name="clean-free">
+		<ant dir="MemMazeAppFree" antfile="build.xml" target="clean"/>
+	</target>
+
+	<target name="build-free-debug" depends="build-core,clean-free" description="Build MemMazeFree in debug mode.">
+		<antcall target="app-build-set-target">
+			<param name="debug" value="true"/>
+		</antcall>
+		<ant dir="MemMazeAppFree" antfile="build.xml" target="debug"/>
+	</target>
+
+	<target name="build-free-release" depends="build-core,clean-free" description="Build MemMazeFree in release mode.">
+		<antcall target="app-build-set-target">
+			<param name="debug" value="false"/>
+		</antcall>
+		<ant dir="MemMazeAppFree" antfile="build.xml" target="release"/>
+	</target>
+
+	<!-- Build targets for MemMazePremium -->	
+	<target name="clean-premium">
+		<ant dir="MemMazeAppPremium" antfile="build.xml" target="clean"/>
+	</target>
+	
+	<target name="build-premium-debug" depends="build-core,clean-premium" description="Build MemMazePremium in debug mode.">
+		<antcall target="app-build-set-target">
+			<param name="debug" value="true"/>
+		</antcall>
+		<ant dir="MemMazeAppPremium" antfile="build.xml" target="debug"/>
+	</target>
+
+	<target name="build-premium-release" depends="build-core,clean-premium" description="Build MemMazePremium in release mode.">
+		<antcall target="app-build-set-target">
+			<param name="debug" value="false"/>
+		</antcall>
+		<ant dir="MemMazeAppPremium" antfile="build.xml" target="release"/>
+	</target>
+
+</project>

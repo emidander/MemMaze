@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_logo_text_1">MEM</string>
+    <string name="app_logo_text_2">MAZE</string>
+    <string name="start_game">Play!</string>
+    <string name="app_free_version">FREE VERSION</string>
+    
+    <string name="level_name">Level %d</string>
+    <string name="replay_level_text">&lt; replay level %d</string>
+    <string name="level_success">Success!</string>
+    <string name="level_failure">Failure!</string>
+    <string name="score">Score: %.0f%%</string>
+    <string name="highscore">Highscore: %.0f%%</string>
+    <string name="game_over_heading">ALL DONE!</string>
+    <string name="game_over_text_free">That\'s it - you have completed the free version of MemMaze. Congratulations! We hope you had a really great time! If you want more levels or just really love this game, why not head over to Android Market and buy MemMaze Premium?</string>
+    <string name="game_over_text_premium">That\'s it - you have completed MemMaze. Congratulations! We hope you had a really great time! By the way - have you scored 100% on all levels yet? If not, your work here is not complete.</string>
+    <string name="go_to_premium">Go to MemMaze Premium</string>
+
+</resources>
