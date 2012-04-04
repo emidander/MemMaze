@@ -6,8 +6,8 @@ import android.graphics.RectF;
 
 public class DrawableTile {
 
-	public Tile tile;
-	public RectF rect;
-	public long lastTouchedTime;
-	
+  public Tile tile;
+  public RectF rect;
+  public long lastTouchedTime;
+
 }
